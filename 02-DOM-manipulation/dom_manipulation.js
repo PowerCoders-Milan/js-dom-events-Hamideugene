@@ -29,7 +29,7 @@ const summarizePoints = () => {
   teamPoints.forEach(teamPoint =>{
     sum += parseInt(teamPoint.innerText);
   })
-  return ;
+  return sum ;
 
 };
 
